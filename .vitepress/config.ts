@@ -11,7 +11,7 @@ export default defineConfig({
     title: '不止极客',
     description: '不止极客   大学生',
     lang: 'zh-cmn-Hans',
-    base: 'nogeek.cn-template',
+    base: '/nogeek.cn-template',
     // 忽略解析部分md文件（默认忽略node_modules），仅打包后生效，被忽略的文件不影响被其他文件导入
     srcExclude: ['**/(README|TODO).md', '(.vitepress|public|images|.guthub|components|snippets|else-exclude|sh)/**/*.md'],
     lastUpdated: true,
